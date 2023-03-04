@@ -6,7 +6,7 @@ import Sidebar from './components/Siderbar/Sidebar';
 
 function App() {
   const [notes, setNotes] = useState(JSON.parse(localStorage.getItem('notes-app')) || [{
-    text: "notez",
+    text: "note",
     time: "3.12AM",
     color: "cyan"
   },
